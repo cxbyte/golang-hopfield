@@ -181,9 +181,7 @@ func main() {
 
 			return;
 		}
-		for i := 0; i < 2; i++ {
-			vector[i] = 1;
-		}
+
 		lastVector = vector;
 	}
 
