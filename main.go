@@ -121,6 +121,9 @@ func getIndexSample(vectors []Vector, vector Vector) (int) {
 	return -1;
 }
 
+/**
+Write False Attractor
+ */
 func writeFalseAttractor(vector Vector) {
 	f, _ := os.Create(DIR_SAMPLES + "/false_attractor");
 	for index, char := range vector {
