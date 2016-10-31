@@ -8,6 +8,7 @@ import (
 	"bufio"
 )
 
+// Variables and constants
 type Matrix [][]int64;
 type Vector []int64;
 const MAX_CONVERGENCE_STEPS = 10;
