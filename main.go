@@ -139,6 +139,9 @@ func writeFalseAttractor(vector Vector) {
 	};
 }
 
+/**
+Entry point
+ */
 func main() {
 	if len(os.Args) <= 1 {
 		println("No input vector");
